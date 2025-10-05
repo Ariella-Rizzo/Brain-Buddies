@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us - BrainBuddies</title>
+
+    <!--- Mochiy Pop One Font and Montserrat Font --------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+   <!-- Internal Styles for contact form-->
+   <style>
+    .contact-form {
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 40px;
+      background: var(--color-dark-teal);
+      border-radius: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+      /* Flexbox for first and last name on same line */
+    .form-row {
+      display: flex;
+      gap: 70px;         /* space between inputs */
+    }
+    .form-group {
+      flex: 1;           /* make them equal width */
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 5px;
+      font-family: 'Mochiy Pop One', sans-serif;
+      font-size: 10px;
+      font-weight: bold;
+      color:var(--color-dark-blue);
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1rem;
+    }
+
+    .contact-form button {
+      padding: 5px 40px;
+      background-color: var(--color-dark-blue);
+      color: var(--color-white);
+      border: none;
+      border-radius: 20px;
+      font-family: 'Mochiy Pop One', sans-serif;
+      font-size: 12px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin-top: 10px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .contact-form button:hover {
+      background-color: #0056b3;
+    }
+   </style>
+  </head>
+ 
+  <body>
+<!--- Header made using external stylesheet -->
+  <header class="site-header">
+
+    <div class="logo-container">
+        <img src="Assets/BuddiesLogo.png" alt="Logo">
+        <h1 class="BrainBuddiesText">BrainBuddies</h1>
+    </div>
+
+    <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Resources</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+  <main>
+    <!-- Hero made using inline style-->
+    <section class="hero">
+      <div class="hero-content"> 
+        <h2 style="font-family: 'Mochiy Pop One', sans-serif; font-size: 40px; color: var(--color-dark-blue); background-color: var(--color-white); border: 5px solid var(--color-dark-teal); padding: 15px; align-items: center; border-radius: 25px; margin-left: -60px; max-width: 500px; display: flex; justify-content: center;">Contact Us!</h2>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 10px; color: var(--color-white);max-width: 270px;margin-left: 95px; line-height: 20px;">Reach out for any additional resources or with questions you have. We would love to hear from you!</p>
+      </div>
+    </section>
+
+    <!-- Contact Form Section made using internal CSS styles-->
+    <section class="contact-form">
+      <form action="#" method="post">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="first">First Name</label>
+            <input type="text" id="first" name="first">
+          </div>
+          <div class="form-group">
+            <label for="last">Last Name</label>
+            <input type="text" id="last" name="last">
+          </div>
+        </div>
+
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject Line</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Add more sections as in your Figma -->
+  </main>
+
+  <footer class="site-footer">
+    <img src="Assets/Instagram Link.png" alt="Instagram">
+    <img src="Assets/Facebook Link.png" alt="Facebook">
+    <p>BrainBuddies@gmail.com</p>
+    </footer>
+</body>
+
+</html>

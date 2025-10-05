@@ -1,0 +1,488 @@
+/* ===========================
+   GLOBAL STYLES
+=========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+/* ===========================
+   NAVBAR (Shared)
+=========================== */
+.navbar {
+    background-color: #1d2a49; /* navy */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+}
+
+.logo {
+    height: 60px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+    .nav-links a {
+        text-decoration: none;
+        padding: 8px 16px;
+        border-radius: 20px;
+        background-color: #fff; /* default white button */
+        color: #1d2a49;
+        font-weight: bold;
+        font-size: 14px;
+        transition: 0.3s ease;
+    }
+
+        .nav-links a.active {
+            background-color: #74d6c4; /* teal */
+            color: #fff;
+        }
+
+        .nav-links a:hover {
+            background-color: #66a994; /* darker teal hover */
+            color: white;
+        }
+
+/* ===========================
+   HOME PAGE
+=========================== */
+.home-body {
+    background-color: #f5f7fa;
+    text-align: center;
+}
+
+/* Progress bar */
+.progress-container {
+    margin: 30px auto;
+    width: 60%;
+    background: #1d2a49;
+    border-radius: 20px;
+    height: 20px;
+}
+
+.progress-bar {
+    width: 20%; /* adjust % as needed */
+    height: 100%;
+    background: #f9b9c3; /* pink */
+    border-radius: 20px;
+}
+
+/* Mascot + Speech Bubble */
+.mascot {
+    margin: 30px 0;
+}
+
+    .mascot img {
+        width: 220px;
+    }
+
+/* Form Section */
+.form-section {
+    background-color: #0d2d66;
+    color: white;
+    padding: 40px 20px;
+}
+
+    .form-section input {
+        padding: 8px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 10px;
+        width: 220px;
+        text-align: center;
+    }
+
+.choices {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+    .choices button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        background-color: #93d7f3;
+        color: #1d2a49;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+        .choices button:hover {
+            background-color: #74c3e2;
+        }
+
+/* Arrow */
+.arrow {
+    margin: 30px auto;
+    width: 100px;
+    height: 100px;
+    background: #93d7f3;
+    clip-path: polygon(0 30%, 65% 30%, 65% 0, 100% 50%, 65% 100%, 65% 70%, 0 70%);
+    box-shadow: 5px 5px 0px #1d2a49;
+}
+
+/* ===========================
+   ABOUT PAGE
+=========================== */
+.about-body {
+    background-color: #c8f6ef; /* light teal */
+    color: #1d2a49; /* navy */
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: #1d2a49;
+}
+
+/* Who Are We? Section */
+.who-section {
+    text-align: center;
+    margin: 40px 0 50px 0;
+    position: relative;
+}
+
+.who-heading {
+    display: inline-block;
+    background-color: #fcb6b6; /* pink */
+    padding: 12px 50px;
+    border-radius: 8px;
+    font-size: 36px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+.mascot-right {
+    position: absolute;
+    top: -20px;
+    right: 15%;
+    width: 100px;
+}
+
+/* Line under heading */
+.who-section::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #1d2a49;
+    margin-top: 15px;
+}
+
+/* Info Section */
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.info-block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+}
+
+    .info-block img {
+        width: 180px;
+        border-radius: 12px;
+    }
+
+    .info-block p {
+        font-size: 16px;
+        max-width: 500px;
+        color: #1d2a49;
+    }
+
+/* ===========================
+   FOOTER (Shared)
+=========================== */
+footer {
+    background-color: white;
+    border-top: 3px solid lightblue;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bold;
+    color: #1d2a49;
+}
+
+    footer img {
+        width: 28px;
+        height: 28px;
+    }
+
+.about-footer {
+    background-color: #1d2a49;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Variables for consistent colors */
+:root {
+    /* Primary brand colors */
+    --color-dark-blue: #1E346D;
+    --color-dark-teal: #95E0E5;
+    --color-light-teal: #CEFEFE;
+    --color-white: #F2F2F2;
+    --color-pink: #F6B6B7;
+}
+
+/* Imported Mochiy Pop One font from Google Fonts */
+.mochiy-pop-one-regular {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Imported Montserrat font from Google Fonts */
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Header layout----------------------------------------------- */
+.site-header {
+    display: flex; /* make all the children elements sit in a row */
+    justify-content: space-between; /* logo left, nav right */
+    align-items: center; /* vertical centering */
+    padding: 10px 20px; /* spacing around header */
+    background-color: var(--color-dark-blue); /* Dark Blue background */
+    box-shadow: 0 11px 10.2px 2px rgba(0, 0, 0, 0.25); /* this adds a drop shadow underneath the header container */
+}
+
+/* Logo + site name */
+.logo-container {
+    display: flex; /* make logo and name sit in a row */
+    align-items: center;
+    gap: 10px; /* space between logo and name */
+}
+
+    .logo-container h1 {
+        font-family: "Mochiy Pop One", sans-serif;
+        font-size: 20px; /* site name size */
+        color: var(--color-white); /* white text */
+        margin: 0; /* remove default margin */
+    }
+
+    .logo-container img {
+        width: 90px; /* logo size */
+        height: auto; /* maintain aspect ratio */
+    }
+
+.nav-links a {
+    /* font of buttons */
+    font-family: "Mochiy Pop One", sans-serif;
+    font-family: Mochiy Pop One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    /* font of buttons */
+    line-height: normal; /* helps them fit in container */
+    display: inline-block; /* makes them behave like boxes */
+    padding: 5px 20px; /* space inside the box */
+    margin-left: 15px; /* spacing between buttons */
+    align-items: center; /* vertical centering */
+    text-decoration: none; /* remove underline */
+    color: var(--color-dark-blue); /* text color */
+    background-color: var(--color-light-teal); /* button background */
+    border-radius: 20px; /* rounded edges */
+    transition: background-color 0.3s; /* smooth hover transition */
+}
+
+    .nav-links a:hover {
+        background-color: #0056b3; /* darker blue BG on hover (not in color palatte to make sure it is distinct from BG)*/
+        color: var(--color-light-teal);
+    }
+/* Header layout----------------------------------------------- */
+
+
+
+/* Body layout----------------------------------------------- */
+
+body {
+    background-color: var(--color-dark-blue); /* Dark Blue background for whole page*/ /* dark text color */
+}
+
+/* Jump buttons layout----------------------------------------------- */
+.jump-buttons {
+    background-color: var(--color-white); /* white background for buttons */
+    align-items: center; /* vertical centering */
+    max-width: 1200px;
+    padding: 5px; /* spacing around header */
+    margin-bottom: 70px; /* space below buttons */
+}
+
+.jump-buttons-container {
+    display: flex; /* make all the children elements sit in a row */
+    justify-content: center; /* center buttons */
+    align-items: center; /* vertical centering */
+    gap: 20px; /* spacing around header */
+    padding: 20px; /* space inside the box */
+}
+
+.jump-button {
+    text-align: center; /* center text inside button */
+    padding: 10px; /* space inside the box */
+    border-radius: 10px; /* rounded edges */
+    font-family: "Mochiy Pop One", sans-serif; /* font of buttons */
+    font-size: 16px;
+    color: var(--color-dark-blue); /* text color */
+    text-decoration: none; /* remove underline */
+    margin: 20px;
+    height: 30px;
+    background-color: var(--color-white); /* spacing above and below */
+}
+
+    .jump-button:hover {
+        font-size: 20px; /* increase font size on hover */
+        transition: font-size 0.3s;
+    }
+/* Jump buttons layout----------------------------------------------- */
+
+/* Resources-----------*/
+main {
+    background-color: var(--color-light-teal);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.how-feeling {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-size: 12px;
+    color: var(--color-dark-blue);
+    text-align: center;
+    padding: 5px;
+    background-color: var(--color-dark-teal);
+    align-items: center;
+    border-radius: 50px;
+    margin-left: -60px;
+    width: 300px;
+}
+
+.school-group {
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+    .school-group h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: var(--color-dark-blue);
+        border-bottom: 2px dashed var(--color-dark-teal);
+    }
+
+.emotion-section {
+    margin-bottom: 40px;
+}
+
+    .emotion-section h3 {
+        font-family: "Mochiy Pop One", sans-serif;
+        font-size: 16px;
+        color: var(--color-dark-blue);
+        margin-bottom: 10px;
+    }
+
+    .emotion-section h4 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 10px;
+        color: var(--color-dark-blue);
+        margin-bottom: 30px;
+    }
+
+.resource-grid {
+    display: flex; /* make all the children elements sit in a row */
+    flex-direction: row;
+    gap: 15px;
+    border-radius: 15px;
+}
+
+    .resource-grid a {
+        padding: 10px;
+        text-align: center;
+        transition: transform 0.2s;
+        text-decoration: none;
+        font-family: "Mochiy Pop One", sans-serif;
+        font-size: 8px;
+        color: var(--color-white);
+        width: 200px;
+        height: auto;
+    }
+
+        .resource-grid a:hover {
+            transform: scale(1.05);
+        }
+
+    .resource-grid img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+/* Body layout----------------------------------------------- */
+
+
+
+/* Footer layout----------------------------------------------- */
+.site-footer {
+    display: flex; /* make all the children elements sit in a row */
+    justify-content: left; /* align items to the left */
+    align-items: center; /* vertical centering */
+    max-width: 1200px; /* max width of footer */
+    gap: 20px; /* spacing around header */
+}
+
+    .site-footer p {
+        font-family: "Mochiy Pop One", sans-serif;
+        font-size: 14px; /* site name size */
+        color: var(--color-white); /* white text */
+        margin: 40px; /* remove default margin */
+    }
+
+    .site-footer img {
+        width: 20px; /* insta and facebook icon size */
+        height: auto; /* maintain aspect ratio */
+    }
