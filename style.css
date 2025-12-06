@@ -48,9 +48,7 @@
             background-color: #66a994; /* darker teal hover */
             color: white;
         }
-.BrainBuddiesTextHome {
-text-color: white;
-}
+
 
 /* ===========================
    HOME PAGE
@@ -65,6 +63,10 @@ quote{
    font-family: "Mochiy Pop One";
    font-size: 25px;
    padding: 40px;
+}
+
+.BrainBuds {
+text-color: white;
 }
 
 /* Mascot + Speech Bubble */
@@ -480,6 +482,7 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
 
 
 
