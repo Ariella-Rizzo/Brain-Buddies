@@ -14,8 +14,8 @@ var randomQ = randomInt(0, 10);
 // ---------------------------
 function getQuote(n) {
    var quotes = [
-      "It's okay to not be okay -Unknown", 
-      "You are braver than you believe, stronger than you seem -Christopher Robin/Winnie the Pooh", 
+      "It's okay to not be okay -Unknown",
+      "You are braver than you believe, stronger than you seem -Christopher Robin/Winnie the Pooh",
       "You are your best thing. -Tony Morrison",
       "There is hope, even when your brain tells you there isn’t. -John Green",
       "You can’t stop the waves, but you can learn to surf -Jon Kabat-Zinn"
