@@ -69,6 +69,12 @@ text-color: white;
     height: 20px;
 }
 
+quote{
+   text-align: center;
+   font-size: 20px;
+   color: #1d2a49;
+}
+
 .progress-bar {
     width: 20%; /* adjust % as needed */
     height: 100%;
@@ -489,4 +495,5 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
 
