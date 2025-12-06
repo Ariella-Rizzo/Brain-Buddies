@@ -77,6 +77,9 @@
 
   /* Make gradient span EXACT width of the text */
   background-size: 100% 100%;
+ background-color: #fcb6b6; /* pink */
+    padding: 12px 50px;
+    border-radius: 8px;
 }
 
 .home-body {
@@ -500,6 +503,7 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
 
 
 
