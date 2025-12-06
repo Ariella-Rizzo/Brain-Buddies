@@ -63,9 +63,20 @@
 .gradient-text {
   font-size: 60px;
   font-weight: bold;
-  background: linear-gradient(to right, #1E346D, #00FFFF, #F6B6B7);
+
+  /* Gradient with fixed percentage stops */
+  background: linear-gradient(
+    to right,
+    #1E346D 0%,
+    #CEFEFE 50%,
+    #F6B6B7 100%
+  );
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  /* Make gradient span EXACT width of the text */
+  background-size: 100% 100%;
 }
 
 .home-body {
@@ -489,6 +500,7 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
 
 
 
