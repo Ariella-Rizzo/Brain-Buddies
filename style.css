@@ -64,6 +64,11 @@
     text-align: center;
 }
 
+/* Welcome statement*/
+.welcomeStatement{
+   font-size: 40px;
+}
+
 /* Quote */
 .quotes { font-size: 40px; }
 
@@ -480,6 +485,7 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
 
 
 
