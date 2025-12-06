@@ -63,7 +63,7 @@
 .gradient-text {
   font-size: 60px;
   font-weight: bold;
-  background: linear-gradient(to right, #1E346D, #CEFEFE, #F6B6B7);
+  background: linear-gradient(to right, #1E346D, #00FFFF, #F6B6B7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -489,6 +489,7 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
 
 
 
