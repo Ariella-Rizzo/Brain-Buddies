@@ -65,7 +65,10 @@
 }
 
 /* Quote */
-.quotes { font-size: 40px; }
+.quotes { 
+   font-size: 40px; 
+   font-family: Mochiy Pop One;     
+        }
 
 /* Mascot + Speech Bubble */
 .mascot {
@@ -480,6 +483,7 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
 
 
 
