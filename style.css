@@ -67,7 +67,6 @@
 /* Quote */
 .quotes { 
    font-size: 40px; 
-   font-family: "Arial";     
         }
 
 /* Mascot + Speech Bubble */
@@ -483,6 +482,7 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
 
 
 
