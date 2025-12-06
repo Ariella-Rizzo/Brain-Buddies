@@ -48,6 +48,9 @@
             background-color: #66a994; /* darker teal hover */
             color: white;
         }
+.BrainBuddiesTextHome {
+text-color: white;
+}
 
 /* ===========================
    HOME PAGE
@@ -486,3 +489,4 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
