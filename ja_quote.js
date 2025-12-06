@@ -39,4 +39,13 @@ function getQuote(n) {
   return quotes[index % quotes.length];
 }
 
+   let quoteText = getQuote(randomQ);
+
+// Place it into the page
+if (quoteElem) {
+  quoteElem.innerHTML = quoteText;
+} else {
+  console.warn('quote element not found in the HTML.');
+}
+
 
