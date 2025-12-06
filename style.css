@@ -60,25 +60,10 @@ text-color: white;
     text-align: center;
 }
 
-/* Progress bar */
-.progress-container {
-    margin: 30px auto;
-    width: 60%;
-    background: #1d2a49;
-    border-radius: 20px;
-    height: 20px;
-}
-
+/* Quote */
 quote{
    font-family: "Mochiy Pop One";
    font-size: 25px;
-}
-
-.progress-bar {
-    width: 20%; /* adjust % as needed */
-    height: 100%;
-    background: #f9b9c3; /* pink */
-    border-radius: 20px;
 }
 
 /* Mascot + Speech Bubble */
@@ -494,6 +479,7 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
 
 
 
