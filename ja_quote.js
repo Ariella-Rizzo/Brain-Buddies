@@ -14,7 +14,8 @@
    quotation tag in the Web page.
 
 */
-
+function randomInt(lowest, size) {
+  return Math.floor(Math.random() * size) + lowest;
 
 function getQuote(n) {
    var quotes = [
@@ -33,3 +34,4 @@ function getQuote(n) {
    return quotes[n];
 
 }
+
