@@ -70,8 +70,8 @@ text-color: white;
 }
 
 quote{
-   font-family: "Mochiy Pop One", sans-serif;
-   font-size: 12px;
+   font-family: "Mochiy Pop One";
+   font-size: 25px;
 }
 
 .progress-bar {
@@ -494,6 +494,7 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
 
 
 
