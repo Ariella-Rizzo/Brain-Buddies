@@ -59,18 +59,18 @@
 /* ===========================
    HOME PAGE
 =========================== */
-.home-body {
-    background-color: #f5f7fa;
-    text-align: center;
-}
 
-/* Welcome statement*/
 .gradient-text {
   font-size: 60px;
   font-weight: bold;
   background: linear-gradient(to right, #14c7b7, #a1e05a, #f2b632);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.home-body {
+    background-color: #f5f7fa;
+    text-align: center;
 }
 
 /* Quote */
@@ -489,6 +489,7 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
 
 
 
