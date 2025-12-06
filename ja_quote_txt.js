@@ -1,4 +1,6 @@
 /*
+   Ariella Rizzo 12/5/2025
+   
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 9
    Case Problem 3
@@ -29,4 +31,5 @@ function getQuote(n) {
    ];
    
    return quotes[n];
+
 }
