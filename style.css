@@ -65,7 +65,7 @@
 }
 
 /* Quote */
-quote{
+.TheQuote{
    font-family: "Mochiy Pop One";
    font-size: 25px;
    padding: 40px;
@@ -488,6 +488,7 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
 
 
 
