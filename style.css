@@ -65,7 +65,7 @@
 }
 
 /* Quote */
-div p.quotes { font-size: 40px; }
+quote.quotes { font-size: 40px; }
 
 /* Mascot + Speech Bubble */
 .mascot {
@@ -480,6 +480,7 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
 
 
 
