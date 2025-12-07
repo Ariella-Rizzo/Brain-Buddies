@@ -33,7 +33,7 @@
 }
 
 .logo {
-    height: 20px;
+    height: 10px;
 }
 
 .nav-links {
@@ -45,8 +45,8 @@
     text-decoration: none;
     padding: 8px 16px;
     border-radius: 20px;
-    background-color: #fff; /* default white button */
-    color: #1d2a49;
+    background-color: var(--color-light-teal); /* default white button */
+    color: #1E346D;
     font-weight: bold;
     font-size: 14px;
     transition: 0.3s ease;
@@ -214,6 +214,6 @@ footer img {
 
 
 .site-footer img {
-    width: 20px; /* insta and facebook icon size */
+    width: 5px; /* insta and facebook icon size */
     height: auto; /* maintain aspect ratio */
 }
