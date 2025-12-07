@@ -41,6 +41,16 @@
     gap: 15px;
 }
 
+.nav-links a {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #fff; /* default white button */
+    color: #1d2a49;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
 
 .nav-links a.active {
     background-color: #74d6c4; /* teal */
@@ -51,30 +61,6 @@
     background-color: #66a994; /* darker teal hover */
     color: white;
 }
-.nav-links a {
-    /* font of buttons */
-    font-family: "Mochiy Pop One", sans-serif;
-    font-family: Mochiy Pop One;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    /* font of buttons */
-    line-height: normal; /* helps them fit in container */
-    display: inline-block; /* makes them behave like boxes */
-    padding: 5px 20px; /* space inside the box */
-    margin-left: 15px; /* spacing between buttons */
-    align-items: center; /* vertical centering */
-    text-decoration: none; /* remove underline */
-    color: var(--color-dark-blue); /* text color */
-    background-color: var(--color-light-teal); /* button background */
-    border-radius: 20px; /* rounded edges */
-    transition: background-color 0.3s; /* smooth hover transition */
-}
-
-    .nav-links a:hover {
-        background-color: #0056b3; /* darker blue BG on hover (not in color palatte to make sure it is distinct from BG)*/
-        color: var(--color-light-teal);
-    }
 /* Header layout----------------------------------------------- */
 
 
@@ -204,20 +190,28 @@ main {
 
 
 /* Footer layout----------------------------------------------- */
-.site-footer {
-    display: flex; /* make all the children elements sit in a row */
-    justify-content: left; /* align items to the left */
-    align-items: center; /* vertical centering */
-    max-width: 1200px; /* max width of footer */
-    gap: 20px; /* spacing around header */
+footer {
+    background-color: white;
+    border-top: 3px solid lightblue;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bold;
+    color: #1d2a49;
 }
 
-.site-footer p {
-    font-family: "Mochiy Pop One", sans-serif;
-    font-size: 14px; /* site name size */
-    color: var(--color-white); /* white text */
-    margin: 40px; /* remove default margin */
+footer img {
+    width: 28px;
+    height: 28px;
 }
+
+.about-footer {
+    background-color: #1d2a49;
+    color: white;
+}
+
 
 .site-footer img {
     width: 20px; /* insta and facebook icon size */
