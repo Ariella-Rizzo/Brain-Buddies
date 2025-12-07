@@ -66,8 +66,8 @@
   background: linear-gradient(
     to right,
     #1E346D 0%,
-    #CEFEFE 50%,
-    #F6B6B7 100%
+    #00FFFF 50%,
+    #FFB6C1 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -498,6 +498,7 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
 
 
 
