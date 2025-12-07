@@ -33,7 +33,7 @@
 }
 
 .logo {
-    height: 40;
+    height: 30;
 }
 
 .nav-links {
@@ -60,8 +60,8 @@
     margin-left: 15; /* spacing between buttons */
     align-items: center; /* vertical centering */
     text-decoration: none; /* remove underline */
-    color: (--color-dark-blue); /* text color */
-    background-color: (--color-light-teal); /* button background */
+    color: var(--color-dark-blue); /* text color */
+    background-color: var(--color-light-teal); /* button background */
     border-radius: 20; /* rounded edges */
     transition: background-color 0.3; /* smooth hover transition */
 }
