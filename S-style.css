@@ -24,58 +24,44 @@
 }
 
 /* Header layout----------------------------------------------- */
-.site-header {
-    display: flex; /* make all the children elements sit in a row */
-    justify-content: space-between; /* logo left, nav right */
-    align-items: center; /* vertical centering */
-    padding: 10px 20px; /* spacing around header */
-    background-color: var(--color-dark-blue); /* Dark Blue background */
-    box-shadow: 0 11px 10.2px 2px rgba(0, 0, 0, 0.25); /* this adds a drop shadow underneath the header container */
-}
-
-/* Logo + site name */
-.logo-container {
-    display: flex; /* make logo and name sit in a row */
+.navbar {
+    background-color: #1d2a49; /* navy */
+    display: flex;
     align-items: center;
-    gap: 10px; /* space between logo and name */
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
 }
 
-    .logo-container h1 {
-        font-family: "Mochiy Pop One", sans-serif;
-        font-size: 20px; /* site name size */
-        color: var(--color-white); /* white text */
-        margin: 0; /* remove default margin */
-    }
+.logo {
+    height: 60px;
+}
 
-    .logo-container img {
-        width: 90px; /* logo size */
-        height: auto; /* maintain aspect ratio */
-    }
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
 
 .nav-links a {
-    /* font of buttons */
-    font-family: "Mochiy Pop One", sans-serif;
-    font-family: Mochiy Pop One;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    /* font of buttons */
-    line-height: normal; /* helps them fit in container */
-    display: inline-block; /* makes them behave like boxes */
-    padding: 5px 20px; /* space inside the box */
-    margin-left: 15px; /* spacing between buttons */
-    align-items: center; /* vertical centering */
-    text-decoration: none; /* remove underline */
-    color: var(--color-dark-blue); /* text color */
-    background-color: var(--color-light-teal); /* button background */
-    border-radius: 20px; /* rounded edges */
-    transition: background-color 0.3s; /* smooth hover transition */
+        text-decoration: none;
+        padding: 8px 16px;
+        border-radius: 20px;
+        background-color: #fff; /* default white button */
+        color: #1d2a49;
+        font-weight: bold;
+        font-size: 14px;
+        transition: 0.3s ease;
 }
 
-    .nav-links a:hover {
-        background-color: #0056b3; /* darker blue BG on hover (not in color palatte to make sure it is distinct from BG)*/
-        color: var(--color-light-teal);
-    }
+.nav-links a.active {
+            background-color: #74d6c4; /* teal */
+            color: #fff;
+}
+
+.nav-links a:hover {
+            background-color: #66a994; /* darker teal hover */
+            color: white;
+}
+
 /* Header layout----------------------------------------------- */
 
 
