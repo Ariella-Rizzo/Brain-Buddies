@@ -33,7 +33,7 @@
 }
 
 .logo {
-    height: 10px;
+    height: 15px;
 }
 
 .nav-links {
@@ -43,7 +43,6 @@
 
 .nav-links a {
     font-family: "Mochiy Pop One", sans-serif; /* font of buttons */
-    text-decoration: none;
     padding: 8px 16px;
     border-radius: 20px;
     background-color: var(--color-light-teal); /* default white button */
