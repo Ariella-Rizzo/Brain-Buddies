@@ -29,51 +29,43 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 2rem;
+    padding: 0.5 2;
 }
 
 .logo {
-    height: 20px;
+    height: 40;
 }
 
 .nav-links {
     display: flex;
-    gap: 15px;
+    gap: 15;
 }
-
 
 .nav-links a.active {
-    background-color: #74d6c4; /* teal */
-    color: #fff;
-}
-
-.nav-links a:hover {
     background-color: #66a994; /* darker teal hover */
     color: white;
 }
+
 .nav-links a {
     /* font of buttons */
     font-family: "Mochiy Pop One", sans-serif;
     font-family: Mochiy Pop One;
-    font-size: 16px;
+    font-size: 16;
     font-style: normal;
     font-weight: 400;
     /* font of buttons */
     line-height: normal; /* helps them fit in container */
     display: inline-block; /* makes them behave like boxes */
-    padding: 5px 20px; /* space inside the box */
-    margin-left: 15px; /* spacing between buttons */
+    padding: 5 20; /* space inside the box */
+    margin-left: 15; /* spacing between buttons */
     align-items: center; /* vertical centering */
     text-decoration: none; /* remove underline */
-    color: var(--color-dark-blue); /* text color */
-    background-color: var(--color-light-teal); /* button background */
-    border-radius: 20px; /* rounded edges */
-    transition: background-color 0.3s; /* smooth hover transition */
+    color: (--color-dark-blue); /* text color */
+    background-color: (--color-light-teal); /* button background */
+    border-radius: 20; /* rounded edges */
+    transition: background-color 0.3; /* smooth hover transition */
 }
 
-    .nav-links a:hover {
-        background-color: #0056b3; /* darker blue BG on hover (not in color palatte to make sure it is distinct from BG)*/
-        color: var(--color-light-teal);
     }
 /* Header layout----------------------------------------------- */
 
