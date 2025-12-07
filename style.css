@@ -77,7 +77,6 @@
   );
 
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 
   /* Make gradient span EXACT width of the text */
   background-size: 100% 100%;
@@ -504,6 +503,7 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
 
 
 
