@@ -33,7 +33,7 @@
 }
 
 .logo {
-    height: 60px;
+    height: 20px;
 }
 
 .nav-links {
@@ -41,26 +41,26 @@
     gap: 15px;
 }
 
-    .nav-links a {
-        text-decoration: none;
-        padding: 8px 16px;
-        border-radius: 20px;
-        background-color: #fff; /* default white button */
-        color: #1d2a49;
-        font-weight: bold;
-        font-size: 14px;
-        transition: 0.3s ease;
-    }
+.nav-links a {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #fff; /* default white button */
+    color: #1d2a49;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
 
-        .nav-links a.active {
-            background-color: #74d6c4; /* teal */
-            color: #fff;
-        }
+.nav-links a.active {
+    background-color: #74d6c4; /* teal */
+    color: #fff;
+}
 
-        .nav-links a:hover {
-            background-color: #66a994; /* darker teal hover */
-            color: white;
-        }
+.nav-links a:hover {
+    background-color: #66a994; /* darker teal hover */
+    color: white;
+}
 /* Header layout----------------------------------------------- */
 
 
@@ -190,22 +190,25 @@ main {
 
 
 /* Footer layout----------------------------------------------- */
-.site-footer {
-    display: flex; /* make all the children elements sit in a row */
-    justify-content: left; /* align items to the left */
-    align-items: center; /* vertical centering */
-    max-width: 1200px; /* max width of footer */
-    gap: 20px; /* spacing around header */
+footer {
+    background-color: white;
+    border-top: 3px solid lightblue;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bold;
+    color: #1d2a49;
 }
 
-    .site-footer p {
-        font-family: "Mochiy Pop One", sans-serif;
-        font-size: 14px; /* site name size */
-        color: var(--color-white); /* white text */
-        margin: 40px; /* remove default margin */
-    }
+footer img {
+    width: 28px;
+    height: 28px;
+}
 
-    .site-footer img {
-        width: 2px; /* insta and facebook icon size */
-        height: auto; /* maintain aspect ratio */
-    }
+.about-footer {
+    background-color: #1d2a49;
+    color: white;
+}
+
