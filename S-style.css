@@ -33,7 +33,7 @@
 }
 
 .logo {
-    height: 2px;
+    height: 60px;
 }
 
 .nav-links {
@@ -41,7 +41,7 @@
     gap: 15px;
 }
 
-.nav-links a {
+    .nav-links a {
         text-decoration: none;
         padding: 8px 16px;
         border-radius: 20px;
@@ -50,18 +50,17 @@
         font-weight: bold;
         font-size: 14px;
         transition: 0.3s ease;
-}
+    }
 
-.nav-links a.active {
+        .nav-links a.active {
             background-color: #74d6c4; /* teal */
             color: #fff;
-}
+        }
 
-.nav-links a:hover {
+        .nav-links a:hover {
             background-color: #66a994; /* darker teal hover */
             color: white;
-}
-
+        }
 /* Header layout----------------------------------------------- */
 
 
