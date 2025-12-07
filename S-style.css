@@ -24,22 +24,35 @@
 }
 
 /* Header layout----------------------------------------------- */
-.navbar {
-    background-color: #1d2a49; /* navy */
-    display: flex;
+
+/* Header layout----------------------------------------------- */
+.site-header {
+    display: flex; /* make all the children elements sit in a row */
+    justify-content: space-between; /* logo left, nav right */
+    align-items: center; /* vertical centering */
+    padding: 10px 20px; /* spacing around header */
+    background-color: var(--color-dark-blue); /* Dark Blue background */
+    box-shadow: 0 11px 10.2px 2px rgba(0, 0, 0, 0.25); /* this adds a drop shadow underneath the header container */
+}
+
+/* Logo + site name */
+.logo-container {
+    display: flex; /* make logo and name sit in a row */
     align-items: center;
-    justify-content: space-between;
-    padding: 0.5rem 2rem;
+    gap: 10px; /* space between logo and name */
 }
 
-.logo {
-    height: 20px;
-}
+    .logo-container h1 {
+        font-family: "Mochiy Pop One", sans-serif;
+        font-size: 20px; /* site name size */
+        color: var(--color-white); /* white text */
+        margin: 0; /* remove default margin */
+    }
 
-.nav-links {
-    display: flex;
-    gap: 15px;
-}
+    .logo-container img {
+        width: 90px; /* logo size */
+        height: auto; /* maintain aspect ratio */
+    }
 
 .nav-links a {
     /* font of buttons */
@@ -61,15 +74,10 @@
     transition: background-color 0.3s; /* smooth hover transition */
 }
 
-.nav-links a.active {
-    background-color: #74d6c4; /* teal */
-    color: #fff;
-}
-
-.nav-links a:hover {
-    background-color: #66a994; /* darker teal hover */
-    color: white;
-}
+    .nav-links a:hover {
+        background-color: #0056b3; /* darker blue BG on hover (not in color palatte to make sure it is distinct from BG)*/
+        color: var(--color-light-teal);
+    }
 /* Header layout----------------------------------------------- */
 
 
