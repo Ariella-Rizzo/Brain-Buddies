@@ -49,7 +49,7 @@
         margin: 0; /* remove default margin */
     }
 
-    .logo-container img {
+    .logo img {
         width: 90px; /* logo size */
         height: auto; /* maintain aspect ratio */
     }
