@@ -66,6 +66,7 @@
    background-color: #fcb6b6; /* pink */
    padding: 12px 50px;
    border-radius: 8px;
+   text-shadow: 2px 2px 4px #000000;
 
   /* Gradient with fixed percentage stops */
   background: linear-gradient(
@@ -503,6 +504,7 @@ main {
         width: 20px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
+
 
 
 
