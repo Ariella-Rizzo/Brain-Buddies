@@ -33,7 +33,7 @@
 }
 
 .logo {
-    height: 10px;
+    height: 2px;
 }
 
 .nav-links {
@@ -207,6 +207,6 @@ main {
     }
 
     .site-footer img {
-        width: 20px; /* insta and facebook icon size */
+        width: 2px; /* insta and facebook icon size */
         height: auto; /* maintain aspect ratio */
     }
